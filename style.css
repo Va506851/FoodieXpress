@@ -1,0 +1,235 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+
+}
+.navbar{ 
+    background-color: #012b25;
+    height: 7rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.navbar a:hover{
+    color:#012b25 ;
+}
+.nav-link{
+    font-size: 1.5rem;
+    
+}
+.nav-button{
+    padding:0.3em 1em ;
+    font-size: 1.5rem;
+}
+
+
+/* navbar-end */
+
+/* hero-section */
+
+.hero-section{
+    background-color: #012b25;
+
+}
+
+.box{
+    padding-top: 8em;
+    padding-bottom: 5em;
+}
+.hero-head{
+    padding-top: 3em;
+    font-size: 3rem;
+}
+.hero-para{
+    padding-top: 1.5em;
+    font-size: 1.3rem;
+}
+.hero-img{
+    max-width: 600px;
+    width: 100%;
+}
+
+@media(max-width: 1400px){
+    .box{
+        padding-top: 8em;
+        
+    }
+    .hero-head{
+       
+        font-size: 2.5rem;
+    }
+}
+
+@media(max-width: 1200px){
+    .hero-head{
+       
+        font-size: 2.1rem;
+    }
+}
+@media(max-width: 992px){
+    .box{
+        padding-top: 1em;
+        
+    }
+}
+
+
+@media(max-width: 776px){
+    .box{
+        padding-top: 3em;
+    }
+    .hero-head{
+        padding-top: 1em;
+        
+    }
+    .hero-img{
+        justify-content: center;
+    }
+}
+
+@media(max-width: 468px){
+    .box{
+        padding-top: 3em;
+    }
+    .hero-head{
+        font-size:2rem ;
+        padding-top: 1em;
+        
+    }
+    .hero-img{
+        justify-content: center;
+    }
+}
+@media(max-width: 447px){
+    
+    .hero-head{
+        font-size:1.6rem ;
+        padding-top: 1em;
+        
+    }
+    .hero-img{
+        justify-content: center;
+    }
+    .hero-para{
+     font-size: 1rem;   
+    }
+}
+@media(max-width: 363px){
+    
+    .hero-head{
+        font-size:1.3rem ;
+        padding-top: 0em;
+        
+    }
+    .hero-img{
+        justify-content: center;
+    }
+    .hero-para{
+     font-size: 0.8rem;   
+    }
+}
+
+/* Featured-Food-Section */
+.foodiexpress-work-section{
+    margin-bottom: 3em;
+}
+
+.Featured-head{
+    font-size: 3rem;
+}
+
+.card{
+    border: none;
+    margin-bottom: 3em;
+}
+.feature-small-head{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.feature-para{
+    font-size: 1rem;
+}
+.feature-btn{
+    width: 150px;
+    margin-bottom: 2em;
+}
+/* Featured-Food-Section End */
+/* foodiexpress-work-section */
+
+.foodiexpress-work-head{
+    font-size: 3rem;
+}
+.work-head{
+    font-size: 1.8rem;
+}
+.work-para{
+    font-size: 1.1rem;
+}
+.fa-solid{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 1.3rem;
+    border: 1px solid #36BA98 ;
+    padding: 0.3em;
+    border-radius: 50%;
+    color : #36BA98;
+}
+
+/* feedback-section */
+.how-it-works{
+    padding: 2.4rem 0;
+  }
+  
+  .testimonials{
+    padding: 5rem 0;
+    background-color:#012b25;
+  }
+  
+  .testimonial-text {
+    color: #048E7B;
+  }
+  
+  .testimonials-name{
+    color: #048E7B;
+  }
+  
+  .testimonial-card{
+    width: 50%;
+  }
+  
+  h3{
+    font-size: 2.4rem;
+  }
+  .testimonial-tophead{
+    font-size: 3rem;
+  }
+
+  .footer-section{
+    margin-top:3em;
+    margin-bottom: 3em;
+  }
+  .footer-head{
+    font-size:1.5rem;
+    font-weight: bold;
+    margin-bottom: 1em;
+
+  }
+  .footer-para{
+    font-size: 1rem;
+  }
+  .social-icon i{
+    font-size: 1.3rem;
+    padding-left: 0.5em;
+    color: #048E7B;
+  }
